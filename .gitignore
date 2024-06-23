@@ -1,2 +1,2 @@
-!CLOUDS\PostProcessing\.gitkeep
-!CLOUDS\Report\.gitkeep
+CLOUDS/PostProcessing/*
+CLOUDS/Report/*
