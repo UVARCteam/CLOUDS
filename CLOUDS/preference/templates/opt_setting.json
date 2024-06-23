@@ -1,0 +1,21 @@
+[   {"Header" : ["Design Variable", "Unit","Used", "Lower","Upper"]},
+    {
+    "Variables" : {
+            "RotorDiameter" : {"DisplayedName" : "Rotor Diameter","Unit" : "in","Tooltip" : "", "Description" : "", "DataType" : ""},
+            "RotorPitch" : {"DisplayedName" : "Pitch","Unit" : "in","Tooltip" : "", "Description" : "", "DataType" : ""},
+            "MotorSpeedConst" : {"DisplayedName" : "Speed Constant (Kv)","Unit" : "","Tooltip" : "", "Description" : "", "DataType" : ""},
+            "BatteryCell" : {"DisplayedName" : "Battery No. of Cell","Unit" : "","Tooltip" : "", "Description" : "", "DataType" : ""},
+            "BatteryCapacity" : {"DisplayedName" : "Battery Capacity","Unit" : "Ah","Tooltip" : "", "Description" : "", "DataType" : ""},
+            "ESCMaxAmp" : {"DisplayedName" : "ESC Max Current ","Unit" : "A","Tooltip" : "", "Description" : "", "DataType" : ""}}},    
+    {"Header" :["Constraint Variable", "Unit","Used","Lower","Upper"]},
+    {
+    "Variables" : {
+            "OEW" : {"DisplayedName" : "Empty Weight","Unit" : "g","Tooltip" : "", "Description" : "", "DataType" : ""},
+            "CenterPlateDiameter" : {"DisplayedName" : "Diagonal Distance of Center Plate","Unit" : "mm","Tooltip" : "", "Description" : "", "DataType" : ""},
+            "DutyRatio_Hovering" : {"DisplayedName" : "Duty Ratio Hovering","Unit" : "%","Tooltip" : "", "Description" : "", "DataType" : ""},
+            "DutyRatio_Climbing" : {"DisplayedName" : "Duty Ratio Climb","Unit" : "%","Tooltip" : "", "Description" : "", "DataType" : ""},
+            "DutyRatio_Descent" : {"DisplayedName" : "Duty Ratio Descent","Unit" : "%","Tooltip" : "", "Description" : "", "DataType" : ""},
+            "DutyRatio_ForwardFlight" : {"DisplayedName" : "Duty Ratio Forward Flight","Unit" : "%","Tooltip" : "", "Description" : "", "DataType" : ""}}},
+    {"FunctionLists" :["Flight time maximization for the first mission segment", 
+                    "Total weight minimization for all mission segments"]}    
+]

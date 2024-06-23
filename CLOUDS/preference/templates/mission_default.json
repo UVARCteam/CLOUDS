@@ -1,0 +1,14 @@
+[   {"Header" :["Type", "Altitude", "Speed","Time","Payload Weight","Payload Current","Temperature"]},
+    {"Type" : {
+                "H" : {"DisplayedName":"Hovering"},
+                "C" : {"DisplayedName":"Climb"},
+                "D" : {"DisplayedName":"Descent"},
+                "F" : {"DisplayedName":"Forward Flight"}}},
+    {
+        "Altitude" : {"DisplayedName":"Altitude", "Unit" : "m","Tooltip" : "Above Ground Level","Description":"", "DataType" : "float"},
+        "Speed" : {"DisplayedName":"Speed", "Unit" : "m/s","Tooltip" : "Vehicle Speed","Description":"", "DataType" : "float"},
+        "Time" : {"DisplayedName":"Time", "Unit" : "sec","Tooltip" : "Flying Time","Description":"", "DataType" : "float"},
+        "Payload Weight" : {"DisplayedName":"Payload Weight", "Unit" : "g","Tooltip" : "Weight for Payload","Description":"", "DataType" : "float"},
+        "Payload Current" : {"DisplayedName":"Payload Current", "Unit" : "A","Tooltip" : "Current Consumption of Payload","Description":"", "DataType" : "float"},
+        "Temperature" : {"DisplayedName":"Temperature", "Unit" : "deg C","Tooltip" : "Environmental Temperature","Description":"", "DataType" : "float"}}
+    ]

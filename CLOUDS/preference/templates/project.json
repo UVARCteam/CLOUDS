@@ -1,0 +1,12 @@
+[   {"Header" : ["Project Setup", "Value"]},
+    {
+     "MODE" : {"DisplayedName" : "MODE","Tooltip" : "Design / Analysis","Order":"0"},
+     "Mission" : {"DisplayedName" : "Mission Profile","Tooltip" : "Mission Profile File","Order":"1"},
+     "Layout" : {"DisplayedName" : "Layout Name","Tooltip" : "Excel Sheet Name in Parameter.xlsx","Order":"2"},
+     "PropModel" : {"DisplayedName" : "Propeller Geometry Model","Tooltip" : "Excel Sheet Name in LinearizedProp.xlsx or PropGeom.xlsx","Order":"3"},
+     "OptSetting" : {"DisplayedName" : "Optimization Setting","Tooltip" : "Excel Sheet Name in OptimizationSetting.xlsx","Order":"4"},
+     "DBLookUp" : {"DisplayedName" : "Database File","Tooltip" : "Component Lookup DB in Design Mode","Order":"5"},
+     "ReportPath" : {"DisplayedName" : "Report File","Tooltip" : "Filename in Report Folder","Order":"6"},
+     "CreatePlot" : {"DisplayedName" : "Create Plots","Tooltip" : "Create post processing plots (True) or not (False) in Analysis Mode","Order":"7"}
+    }
+    ]

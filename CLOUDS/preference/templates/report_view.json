@@ -1,0 +1,8 @@
+[   {"ItemLists":["FTimeCarpet","SegAnalysis","RMPerf","SensitivityAnalysis"]},
+    {
+     "ItemInfos" : {
+                "FTimeCarpet" : {"DisplayedName" : "Flight Time Carpet Plot","Tooltip" : "Flight Time Comparison for Forward Speeds and Payload Weights",  "Description" : "", "DataFooter" : "Flight time carpet plot"},
+                "SegAnalysis" : {"DisplayedName" : "Mission Segment Analysis","Tooltip" : "Detail Information at each segment ",  "Description" : "", "DataFooter" : "MissionPerf"},
+                "RMPerf" : {"DisplayedName" : "Rotor & Motor Performance","Tooltip" : "Rotor / Motor Curve with Thrust",  "Description" : "", "DataFooter" : "RMPerf"},
+                "SensitivityAnalysis" : {"DisplayedName" : "Sensitivity analysis","Tooltip" : "Sensitivity analysis for hovering time",  "Description" : "", "DataFooter" : "Sensitivity analysis"}}}
+]

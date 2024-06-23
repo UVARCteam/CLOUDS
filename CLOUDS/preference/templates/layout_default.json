@@ -1,0 +1,78 @@
+[   {"Header" :["Parameter Group", "Value", "Unit"]},
+    {
+        "Rotor" : { 
+            "Diameter" : {"DisplayedName" : "Diameter", "Unit" : "in","Tooltip" : "Propeller Diameter","Description":"", "DataType" : "float"},
+            "Pitch" : {"DisplayedName" : "Pitch", "Unit" : "in","Tooltip" : "Propeller Pitch","Description":"", "DataType" : "float"},
+            "Linearized" : {"DisplayedName" : "Linearized Propeller Model", "Unit" : "","Tooltip" : "Applying Linearized Propeller Model","Description":"", "DataType" : "boolean"},
+            "AirfoilName" : {"DisplayedName" : "Airfoil Name", "Unit" : "","Tooltip" : "","Description":"", "DataType" : "str"},
+            "Bnum" : {"DisplayedName" : "No. Blade", "Unit" : "","Tooltip" : "Number of Blade","Description":"", "DataType" : "int"},
+            "Nrotor" : {"DisplayedName" : "No. Rotor", "Unit" : "","Tooltip" : "Number of Rotor","Description":"", "DataType" : "int"},
+            "Ptype" : {"DisplayedName" : "Propeller Type", "Unit" : "","Tooltip" : "Propeller Material Type","Description":"", "DataType" : "combo"}
+        },
+        "Motor" : {
+            "SpeedConst" : {"DisplayedName" : "Speed Constant", "Unit" : "","Tooltip" : "Motor Speed Constant(Kv)","Description":"", "DataType" : "float"},
+            "Pole" : {"DisplayedName" : "Poles", "Unit" : "","Tooltip" : "Motor Poles","Description":"", "DataType" : "int"},
+            "InnerResistance" : {"DisplayedName" : "Internal Resistance", "Unit" : "Ohm","Tooltip" : "Internal Resistance","Description":"", "DataType" : "float"},
+            "NoloadCurrent" : {"DisplayedName" : "No Load Current", "Unit" : "A","Tooltip" : "No Load Current","Description":"", "DataType" : "float"}
+        },
+        "Battery" : {			
+            "Capacity" : {"DisplayedName" : "Capacity", "Unit" : "Ah","Tooltip" : "Battery Capacity","Description":"", "DataType" : "float"},
+            "CellNumber" : {"DisplayedName" : "No. Cell", "Unit" : "","Tooltip" : "Number of Cells","Description":"", "DataType" : "int"},
+            "MaxContiCrate" : {"DisplayedName" : "Max. C-rate", "Unit" : "","Tooltip" : "Maximum C-rate(Continuous)","Description":"", "DataType" : "float"},
+            "Heater" : {"DisplayedName" : "Heater Usage", "Unit" : "","Tooltip" : "Applying Heater at Low Temperature","Description":"", "DataType" : "boolean"},
+            "SOC_start" : {"DisplayedName" : "Starting SOC(%)", "Unit" : "%","Tooltip" : "Starting State-of-Charge (%)","Description":"", "DataType" : "float"},
+            "SOC_end" : {"DisplayedName" : "Finished SOC(%)", "Unit" : "%","Tooltip" : "Finished State-of-Charge (%)","Description":"", "DataType" : "float"},
+            "CellVolt_end" : {"DisplayedName" : "Cell Cut-off Voltage", "Unit" : "V","Tooltip" : "Cell Cut-off Voltage","Description":"", "DataType" : "float"},
+            "DischargeChartName" : {"DisplayedName" : "Battery Model", "Unit" : "","Tooltip" : "Lookup Table of Battery Discharging","Description":"", "DataType" : "str"}
+        },
+        "Frame" : {				
+            "BarDiameter_outer" : {"DisplayedName" : "Arm Bar Diameter (outer)", "Unit" : "m","Tooltip" : "Arm Bar Diameter (outer)","Description":"", "DataType" : "float"},
+            "BarDiameter_inner" : {"DisplayedName" : "Arm Bar Diameter (inner)", "Unit" : "m","Tooltip" : "Arm Bar Diameter (inner)","Description":"", "DataType" : "float"},
+            "DiagonalLength" : {"DisplayedName" : "Diagonal Distance", "Unit" : "mm","Tooltip" : "Diagonal Distance","Description":"", "DataType" : "float"},
+            "TipClearanceRatio" : {"DisplayedName" : "Tip Clearance Ratio", "Unit" : "","Tooltip" : "Tip Clearance Ratio (Tip Clearance / Propeller Radius)","Description":"", "DataType" : "float"},
+            "LoadFactor" : {"DisplayedName" : "Load Factor", "Unit" : "","Tooltip" : "Margin Factor for Frame Faliure","Description":"", "DataType" : "float"},
+            "UltimateStrength" : {"DisplayedName" : "Ultimate Strength", "Unit" : "GPa","Tooltip" : "Ultimate Strength for Frame Matrerial","Description":"", "DataType" : "float"},
+            "ReqSafetyFactor" : {"DisplayedName" : "Safety Factor", "Unit" : "","Tooltip" : "Frame Safety Factor","Description":"", "DataType" : "float"},
+            "CentPlateRatio" : {"DisplayedName" : "Center Plate Ratio", "Unit" : "","Tooltip" : "Center Plate Ratio","Description":"", "DataType" : "float"}
+        },
+        "ESC" : {				
+            "MaxAmp" : {"DisplayedName" : "Max Current", "Unit" : "A","Tooltip" : "Maximum Allowed Current","Description":"", "DataType" : "float"},
+            "InnerResistance" : {"DisplayedName" : "Internal Resistance", "Unit" : "Ohm","Tooltip" : "Internal Resistance","Description":"", "DataType" : "float"}
+        },
+        "Avionics" : {
+            "Amp" : {"DisplayedName" : "Avionics Current", "Unit" : "A","Tooltip" : "Avionics Current","Description":"", "DataType" : "float"}
+        },
+        "Weight" : {
+            "OEW" : {"DisplayedName" : "OEW", "Unit" : "g","Tooltip" : "Empty Weight(without Payload)","Description":"", "DataType" : "float"},
+            "RWeight" : {"DisplayedName" : "Rotor Weight", "Unit" : "g","Tooltip" : "","Description":"", "DataType" : "float"},
+            "MWeight" : {"DisplayedName" : "Motor Weight", "Unit" : "g","Tooltip" : "","Description":"", "DataType" : "float"},
+            "MWeightTrend" : {"DisplayedName" : "Rotor Weight Trend", "Unit" : "g","Tooltip" : "Rotor Weight Trend Estimation Method (L/M/H)","Description":"", "DataType" : "combo"},            
+            "BWeight" : {"DisplayedName" : "Battery Weight", "Unit" : "g","Tooltip" : "Battery Weight","Description":"", "DataType" : "float"},
+            "FWeight" : {"DisplayedName" : "Frame Weight", "Unit" : "g","Tooltip" : "Frame Weight","Description":"", "DataType" : "float"},
+            "EWeight" : {"DisplayedName" : "ESC Weight ", "Unit" : "g","Tooltip" : "ESC Weight","Description":"", "DataType" : "float"},
+            "FCCWeight" : {"DisplayedName" : "FCC Weight", "Unit" : "g","Tooltip" : "FCC Weight","Description":"", "DataType" : "float"},
+            "GPSWeight" : {"DisplayedName" : "GPS Weight", "Unit" : "g","Tooltip" : "GPS Weight","Description":"", "DataType" : "float"},
+            "CommunicationWeight" : {"DisplayedName" : "Communication Weight", "Unit" : "g","Tooltip" : "Communication Weight","Description":"", "DataType" : "float"},
+            "SystemInstallWeight" : {"DisplayedName" : "Additional Weight", "Unit" : "g","Tooltip" : "Additional Weight","Description":"", "DataType" : "float"},            
+            "ArmAttachment" : {"DisplayedName" : "Attachment Weight", "Unit" : "g","Tooltip" : "Weight for Arm-Frame Attachment","Description":"", "DataType" : "float"}           
+        },
+        "CG" : {
+            "RotorCG" : {"DisplayedName" : "CG Offset : Rotor", "Unit" : "m","Tooltip" : "CG Offset from Upper Frame Surface (+ : Upward)","Description":"", "DataType" : "float"},
+            "MotorCG" : {"DisplayedName" : "CG Offset : Motor", "Unit" : "m","Tooltip" : "CG Offset from Upper Frame Surface (+ : Upward)","Description":"", "DataType" : "float"},
+            "BatteryCG" : {"DisplayedName" : "CG Offset : Battery", "Unit" : "m","Tooltip" : "CG Offset from Upper Frame Surface (+ : Upward)","Description":"", "DataType" : "float"},
+            "ESCCG" : {"DisplayedName" : "CG Offset : ESC", "Unit" : "m","Tooltip" : "CG Offset from Upper Frame Surface (+ : Upward)","Description":"", "DataType" : "float"},            
+            "FrameCG" : {"DisplayedName" : "CG Offset : Frame", "Unit" : "m","Tooltip" : "CG Offset from Upper Frame Surface (+ : Upward)","Description":"", "DataType" : "float"},
+            "PayloadCG" : {"DisplayedName" : "CG Offset : Payload", "Unit" : "m","Tooltip" : "CG Offset from Upper Frame Surface (+ : Upward)","Description":"", "DataType" : "float"}
+        },
+        "CD" : {
+            "V1" : {"DisplayedName" : "V1", "Unit" : "m/s","Tooltip" : "Frame Drag Model for Speed V1","Description":"", "DataType" : "float"},
+            "V1_CD_coeff1" : {"DisplayedName" : "V1 Coefficient(1)", "Unit" : "","Tooltip" : "Quadratic Coefficient","Description":"", "DataType" : "float"},
+            "V1_CD_coeff2" : {"DisplayedName" : "V1 Coefficient(2)", "Unit" : "","Tooltip" : "Linear Coefficient","Description":"", "DataType" : "float"},
+            "V1_CD_coeff3" : {"DisplayedName" : "V1 Coefficient(3)", "Unit" : "","Tooltip" : "Constant Coefficient","Description":"", "DataType" : "float"},            
+            "V2" : {"DisplayedName" : "V2", "Unit" : "m/s","Tooltip" : "Frame Drag Model for Speed V2","Description":"", "DataType" : "float"},
+            "V2_CD_coeff1" : {"DisplayedName" : "V2 Coefficient(1)", "Unit" : "","Tooltip" : "Quadratic Coefficient","Description":"", "DataType" : "float"},
+            "V2_CD_coeff2" : {"DisplayedName" : "V2 Coefficient(2)", "Unit" : "","Tooltip" : "Linear Coefficient","Description":"", "DataType" : "float"},
+            "V2_CD_coeff3" : {"DisplayedName" : "V2 Coefficient(3)", "Unit" : "","Tooltip" : "Constant Coefficient","Description":"", "DataType" : "float"}
+        }
+    
+    }]

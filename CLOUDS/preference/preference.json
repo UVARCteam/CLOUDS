@@ -1,0 +1,29 @@
+[   {"Header" :"Preference",
+     "Appearance":{
+        "Font": {"Family":"Gothic","size":"9"},
+        "Language": {"Template":"Default"}
+        },
+     "Templates" : {
+        "Project" : {"File":"project.json"},
+        "Layout" : {"File":"layout_default.json"},
+        "Mission" : {"File":"mission_default.json"},
+        "OptSetting" : {"File":"opt_setting.json"},
+        "Report" : {"File":"report_view.json"}
+        },
+      "Program" : {
+         "WorkingDirectory" : "",
+         "Command" : "CLOUDS.exe",
+         "Args" : "-project_command"         
+      },
+      "SUB_Items" : {
+         "DEFAULT_LAYOUT_DIR" : ".",
+         "DEFAULT_MISSION" : "Mission",        
+         "DEFAULT_AIRFOIL_DB" : "Airfoil"         
+
+         }
+
+
+
+
+      }
+]
